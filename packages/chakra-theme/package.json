@@ -33,7 +33,7 @@
     "build": "tsup src/index.ts --dts",
     "test": "jest"
   },
-  "dependencies": {
+  "optionalDependencies": {
     "typescript": "^4.5.2"
   },
   "peerDependencies": {
