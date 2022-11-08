@@ -8,6 +8,10 @@ describe("Theme", () => {
     expect(defaultThemeIsAChakraTheme).toBeTruthy()
   })
 
+  it("should expect true to be truthy", () => {
+    expect(true).toBeTruthy()
+  })
+
   it("should be check that this is a ChakraTheme", () => {
     expect(isChakraTheme(theme)).toBeTruthy()
   })
