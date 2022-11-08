@@ -1,12 +1,5 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
-  "version": "0.0.1-alpha.1",
-  "command": {
-    "bootstrap": {
-      "hoist": [
-        "jest"
-      ]
-    }
-  }
+  "version": "0.0.1-alpha.1"
 }
