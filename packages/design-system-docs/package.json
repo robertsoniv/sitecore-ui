@@ -1,0 +1,33 @@
+{
+  "name": "design-system-docs",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.7",
+    "@chakra-ui/icons": "^2.0.10",
+    "@chakra-ui/system": "^2.2.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@sitecore-ui/chakra-theme": "*",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "@mdi/js": "^7.0.96",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.2",
+    "framer-motion": "^6.5.1",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-lorem-ipsum": "^1.4.10",
+    "typescript": "4.8.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

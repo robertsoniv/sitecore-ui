@@ -1,0 +1,5 @@
+49 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin postlerna
+49 error remote: Permission to robertsoniv/lerna-getting-started-example.git denied to row_sitecore.
+49 error fatal: unable to access 'https://github.com/robertsoniv/lerna-getting-started-example/': The requested URL returned error: 403
+49 error     at makeError (C:\Users\row\Documents\GitHub\lerna-getting-started-example\node_modules\execa\lib\error.js:60:11)
+49 error     at handlePromise (C:\Users\row\Documents\GitHub\lerna-getting-started-example\node_modules\execa\index.js:118:26)

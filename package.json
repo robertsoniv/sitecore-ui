@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "nx": {
+    "targets": {
+      "build": {
+        "outputs": ["{projectRoot}/build", "{projectRoot}/public/build"]
+      }
+    }
+  }
+}

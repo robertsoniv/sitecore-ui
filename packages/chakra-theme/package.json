@@ -1,0 +1,48 @@
+{
+  "name": "@sitecore-ui/chakra-theme",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.sitecore.com/contenthub/"
+  },
+  "version": "0.0.1-alpha.1",
+  "description": "The Sitecore theme for chakra components",
+  "keywords": [
+    "sitecore",
+    "theme",
+    "theming",
+    "ui mode",
+    "ui"
+  ],
+  "sideEffects": false,
+  "author": "Robert Watt <rob.watt@sitecore.com>",
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
+  },
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "@chakra-ui/react": ">=2.0.0",
+    "@chakra-ui/theme-tools": ">=2.0.0",
+    "@chakra-ui/styled-system": ">=2.0.0"
+  },
+  "devDependencies": {
+    "tsup": "6.1.3",
+    "clean-package": "2.1.1",
+    "rimraf": "^3.0.2"
+  }
+}
