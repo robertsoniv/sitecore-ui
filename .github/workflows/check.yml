@@ -26,4 +26,4 @@ jobs:
     - name: Install dependencies ${{ matrix.node-version}}
       run: npx lerna bootstrap
     - name: Run tests ${{ matrix.node-version}}
-      run: npx lerna test
+      run: npx lerna run test
