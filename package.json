@@ -6,12 +6,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "nx": {
-    "targets": {
-      "build": {
-        "outputs": ["{projectRoot}/build", "{projectRoot}/public/build"]
-      }
-    }
-  }
+  ]
 }
