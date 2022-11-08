@@ -7,15 +7,34 @@
       }
     }
   },
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*"
+    ],
+    "prod": [
+      "!{projectRoot}/**/*.spec.tsx"
+    ]
+  },
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["{projectRoot}/dist"]
+      "inputs": [
+        "prod",
+        "^prod"
+      ],
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "test": {
+      "inputs": [
+        "default",
+        "^prod"
+      ]
     },
     "dev": {
-        "dependsOn": [
-          "^build"
-        ]
-      }
+      "dependsOn": [
+        "^build"
+      ]
+    }
   }
 }
